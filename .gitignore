@@ -4,6 +4,9 @@
 ./key
 ./key.pub
 
+key
+key.pub
+
 # dependencies
 /node_modules
 /.pnp
