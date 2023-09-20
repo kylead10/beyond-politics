@@ -1,5 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Ignore SSH private and public key files
+./key
+./key.pub
+
 # dependencies
 /node_modules
 /.pnp
