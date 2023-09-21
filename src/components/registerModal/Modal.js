@@ -75,7 +75,7 @@ export const Modal = ({ showModal, setShowModal }) => {
             />
             <ModalContent>
               <h1>Are you ready? </h1>
-              <button> Register Now!!</button>
+              <button> Register Here</button>
             </ModalContent>
             <CloseModalButton
               aria-label='Close modal'
