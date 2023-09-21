@@ -8,10 +8,9 @@ const App = () => {
   return (
     <div>
       <Header />
-
       <About />
-      <Footer />
       <Pop />
+      <Footer />
     </div>
   );
 };
