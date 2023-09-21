@@ -71,11 +71,11 @@ export const Modal = ({ showModal, setShowModal }) => {
           <ModalWrapper showModal={showModal}>
             <ModalImg
               src={require('../../assets/modal.jpg')}
-              alt='camera picture'
+              alt='program picture'
             />
             <ModalContent>
               <h1>Are you ready? </h1>
-              <button> Join Now!!</button>
+              <button> Register Now!!</button>
             </ModalContent>
             <CloseModalButton
               aria-label='Close modal'
