@@ -4,16 +4,23 @@ import './Header.css';
 import styled from 'styled-components';
 
 const StyledH1 = styled.h1`
-  font-size: 1.5em;
+  font-size: 80px;
   text-align: center;
   color: #bf4f74;
+`;
+
+const H1Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 `;
 
 const CenteredContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Make the container fill the viewport height */
+  height: 10vh;
 `;
 
 const Register = styled.button`
@@ -39,13 +46,15 @@ const Header = () => {
   return (
     <>
       <section>
+        <H1Container>
+          <StyledH1>Beyond Politics </StyledH1>
+        </H1Container>
         <div className='first-pic'>
           <img src={first} alt='home' />
           <CenteredContainer>
             <Register>Register</Register>
           </CenteredContainer>
         </div>
-        <StyledH1>Beyond Politics </StyledH1>
       </section>
     </>
   );

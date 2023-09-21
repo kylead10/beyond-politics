@@ -29,7 +29,7 @@ function Pop() {
   return (
     <>
       <Container>
-        <Button onClick={openModal}>register here ...</Button>
+        <Button onClick={openModal}>register here</Button>
         <Modal showModal={showModal} setShowModal={setShowModal} />
         <GlobalStyle />
       </Container>
