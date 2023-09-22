@@ -24,6 +24,13 @@ const CenteredContainer = styled.div`
   height: 10vh;
 `;
 
+const FirstPic = styled.img`
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+`;
+
 const Register = styled.button`
   font-weight: bold;
   display: block;
@@ -50,12 +57,11 @@ const Header = () => {
         <H1Container>
           <StyledH1>Beyond Politics </StyledH1>
         </H1Container>
-        <div className='first-pic'>
-          <img src={first} alt='home' />
-          <CenteredContainer>
-            <Register>Register</Register>
-          </CenteredContainer>
-        </div>
+
+        <FirstPic src={first} alt='home' />
+        <CenteredContainer>
+          <Register>Register</Register>
+        </CenteredContainer>
       </section>
     </>
   );
