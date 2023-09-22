@@ -5,13 +5,30 @@ import styled from 'styled-components';
 import { Modal } from '../registerModal/Modal';
 import Pop from '../registerModal/Pop';
 
+const CenteredContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+`;
+
 const Register = styled.button`
-  background: #575b1e;
-  border: 30px solid #fff;
-  color: #000;
   font-weight: bold;
   display: block;
   border-radius: 50px;
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding for better spacing */
+  font-size: 16px; /* Font size */
+  // border: none; /* Remove border */
+  cursor: pointer; /* Add cursor pointer on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+
+  /* Hover state */
+  &:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
 `;
 
 const Info = styled.h3`
@@ -19,8 +36,6 @@ const Info = styled.h3`
   text-align: center;
   color: #bf4f74;
 `;
-
-const Submit = styled.button``;
 
 const About = () => {
   return (
@@ -37,6 +52,9 @@ const About = () => {
             praesentium mollitia nostrum maxime maiores dolor veniam, fugiat
             sapiente quae! Perferendis, eaque.
           </Info>
+          <CenteredContainer>
+            <Register>Register</Register>
+          </CenteredContainer>
         </div>
       </section>
     </>
