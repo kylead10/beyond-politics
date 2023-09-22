@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const StyledH1 = styled.h1`
   font-size: 80px;
   text-align: center;
-  color: #bf4f74;
+  color: #fff;
 `;
 
 const H1Container = styled.div`
@@ -14,6 +14,7 @@ const H1Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 10vh;
+  background-color: grey;
 `;
 
 const CenteredContainer = styled.div`
