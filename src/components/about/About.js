@@ -14,18 +14,17 @@ const Register = styled.button`
   font-weight: bold;
   display: block;
   border-radius: 50px;
-  background-color: #007bff; /* Blue background color */
-  color: #fff; /* White text color */
-  padding: 10px 20px; /* Padding for better spacing */
-  font-size: 16px; /* Font size */
-  // border: none; /* Remove border */
-  cursor: pointer; /* Add cursor pointer on hover */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth background color transition */
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  // border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 
-  /* Hover state */
   &:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
   }
 `;
 
