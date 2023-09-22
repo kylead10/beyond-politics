@@ -2,8 +2,6 @@ import React from 'react';
 import './About.css';
 import second from '../../assets/second.jpg';
 import styled from 'styled-components';
-import { Modal } from '../registerModal/Modal';
-import Pop from '../registerModal/Pop';
 
 const CenteredContainer = styled.div`
   display: flex;
@@ -45,7 +43,11 @@ const About = () => {
           <img src={second} alt='about' />
         </div>
         <div>
+          <CenteredContainer>
+            <Register>Register</Register>
+          </CenteredContainer>
           <h1>About Speaker</h1>
+
           <Info>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia totam
             neque culpa autem debitis expedita ab doloremque deleniti
