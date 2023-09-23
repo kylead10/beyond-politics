@@ -14,7 +14,7 @@ const Register = styled.button`
   font-weight: bold;
   display: block;
   border-radius: 50px;
-  background-color: #007bff;
+  background-color: grey;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
@@ -32,12 +32,13 @@ const Head = styled.h1`
   font-size: 2em;
   text-align: left;
   color: grey;
+  display: block;
 `;
 
 const Info = styled.h3`
   font-size: 1em;
   text-align: left;
-  color: black;
+  color: grey;
 `;
 
 const About = () => {
