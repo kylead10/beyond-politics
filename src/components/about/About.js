@@ -28,9 +28,15 @@ const Register = styled.button`
   }
 `;
 
+const Head = styled.h1`
+  font-size: 2em;
+  text-align: left;
+  color: grey;
+`;
+
 const Info = styled.h3`
   font-size: 1em;
-  text-align: center;
+  text-align: left;
   color: black;
 `;
 
@@ -45,7 +51,7 @@ const About = () => {
           <CenteredContainer>
             <Register>Register</Register>
           </CenteredContainer>
-          <h1>About Speaker</h1>
+          <Head>About Speaker</Head>
 
           <Info>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
