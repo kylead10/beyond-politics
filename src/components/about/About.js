@@ -48,10 +48,10 @@ const About = () => {
           <h1>About Speaker</h1>
 
           <Info>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia totam
-            neque culpa autem debitis expedita ab doloremque deleniti
-            praesentium mollitia nostrum maxime maiores dolor veniam, fugiat
-            sapiente quae! Perferendis, eaque.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            voluptas exercitationem eveniet quis impedit sunt cupiditate atque
+            accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
+            ut nemo corrupti!
           </Info>
           <CenteredContainer>
             <Register>Register</Register>
