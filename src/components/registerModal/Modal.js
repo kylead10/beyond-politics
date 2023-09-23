@@ -4,11 +4,12 @@ import { MdClose } from 'react-icons/md';
 
 const Background = styled.div`
   width: 100%;
-  height: 100%;
+  height: 10%;
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
+  // background-color: black;
 `;
 
 const ModalWrapper = styled.div`
