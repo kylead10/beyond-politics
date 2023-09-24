@@ -4,6 +4,8 @@ import './Header.css';
 import styled from 'styled-components';
 
 const StyledH1 = styled.h1`
+  margin: 0;
+  padding: 0;
   font-size: 50px;
   text-align: center;
   color: #fff;
@@ -18,24 +20,35 @@ const StyledH1 = styled.h1`
 
 const H1Container = styled.div`
   display: flex;
+  margin: 0;
+  padding: 0;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 8vh;
   background-color: grey;
 `;
 
-const CenteredContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
+const ImageContainer = styled.div`
+  margin: 0;
+  padding: 0;
+  background-color: red;
 `;
 
 const FirstPic = styled.img`
+  margin: 0;
+  padding: 0;
   max-width: 100%;
   height: auto;
   border: 2px solid #333;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+`;
+
+const CenteredContainer = styled.div`
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 `;
 
 const Register = styled.button`
@@ -63,8 +76,9 @@ const Header = () => {
         <H1Container>
           <StyledH1>Beyond Politics </StyledH1>
         </H1Container>
-
-        <FirstPic src={first} alt='home' />
+        <ImageContainer>
+          <FirstPic src={first} alt='home' />
+        </ImageContainer>
         <CenteredContainer>
           <Register>Register</Register>
         </CenteredContainer>
