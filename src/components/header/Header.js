@@ -2,6 +2,7 @@ import React from 'react';
 import first from '../../assets/first.jpg';
 import './Header.css';
 import styled from 'styled-components';
+import { useState } from 'react';
 
 const StyledH1 = styled.h1`
   margin: 0;
@@ -70,6 +71,8 @@ const Register = styled.button`
 `;
 
 const Header = () => {
+  const [isRegistered, setIsRegistered] = useState(false);
+  const handleRegistration = () => {};
   return (
     <>
       <section>
