@@ -4,9 +4,16 @@ import './Header.css';
 import styled from 'styled-components';
 
 const StyledH1 = styled.h1`
-  font-size: 80px;
+  // font-size: 80px;
   text-align: center;
   color: #fff;
+  @media (max-width: 768px) {
+    font-size: 3rem; /* Reduce font size for screens up to 768px width */
+  }
+
+  @media (max-width: 576px) {
+    font-size: 1.2rem; /* Further reduce font size for screens up to 576px width */
+  }
 `;
 
 const H1Container = styled.div`
