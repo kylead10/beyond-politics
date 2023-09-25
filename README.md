@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-this is a practice react project single page website
+This is a practice react project single page website.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
