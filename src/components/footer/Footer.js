@@ -9,20 +9,28 @@ const FooterContainer = styled.div`
   background-color: grey;
 `;
 
-const StyledH1 = styled.h1`
+const SocialMediaLinks = styled.h1`
   margin: 0;
   padding: 0;
-  font-size: 50px;
+  font-size: 15px;
   text-align: center;
-  background-color: grey;
+  color: #fff;
 `;
+
+const SocialLink = styled.div``;
 
 const Footer = () => {
   return (
     <>
       <section>
-        <FooterContainer></FooterContainer>
-        <StyledH1>footer</StyledH1>
+        <FooterContainer>
+          <SocialMediaLinks>
+            <SocialLink href='https://www.facebook.com/'>Facebook</SocialLink>
+            <SocialLink href='https://twitter.com/'>Twitter</SocialLink>
+            <SocialLink href='https://www.instagram.com/'>Instagram</SocialLink>
+            <SocialLink href='https://www.linkedin.com/'>LinkedIn</SocialLink>
+          </SocialMediaLinks>
+        </FooterContainer>
       </section>
     </>
   );
