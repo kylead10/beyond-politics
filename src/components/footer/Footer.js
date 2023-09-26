@@ -27,16 +27,38 @@ const SocialLink = styled.a`
   }
 `;
 
+const SocialIcon = styled.img`
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+`;
+
 const Footer = () => {
   return (
     <>
       <section>
         <FooterContainer>
           <SocialMediaLinks>
-            <SocialLink href='https://www.facebook.com/'>Facebook</SocialLink>
-            <SocialLink href='https://twitter.com/'>Twitter</SocialLink>
-            <SocialLink href='https://www.instagram.com/'>Instagram</SocialLink>
-            <SocialLink href='https://www.linkedin.com/'>LinkedIn</SocialLink>
+            <SocialLink href='https://www.facebook.com/'>
+              <SocialIcon src='/facebook-logo.png' alt='Facebook Logo' />
+              Facebook
+              <span>2023</span>
+            </SocialLink>
+            <SocialLink href='https://twitter.com/'>
+              <SocialIcon src='/twitter-logo.png' alt='Twitter Logo' />
+              Twitter
+              <span>2023</span>
+            </SocialLink>
+            <SocialLink href='https://www.instagram.com/'>
+              <SocialIcon src='/instagram-logo.png' alt='Instagram Logo' />
+              Instagram
+              <span>2023</span>
+            </SocialLink>
+            <SocialLink href='https://www.linkedin.com/'>
+              <SocialIcon src='/linkedin-logo.png' alt='LinkedIn Logo' />
+              LinkedIn
+              <span>2023</span>
+            </SocialLink>
           </SocialMediaLinks>
         </FooterContainer>
       </section>
