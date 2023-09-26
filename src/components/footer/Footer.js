@@ -9,15 +9,23 @@ const FooterContainer = styled.div`
   background-color: grey;
 `;
 
-const SocialMediaLinks = styled.h1`
-  margin: 0;
-  padding: 0;
-  font-size: 15px;
-  text-align: center;
-  color: #fff;
+const SocialMediaLinks = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
-const SocialLink = styled.div``;
+const SocialLink = styled.a`
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #007bff;
+  }
+`;
 
 const Footer = () => {
   return (
