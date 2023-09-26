@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import second from '../../assets/second.jpg';
+import first from '../../assets/first.jpg';
 import styled from 'styled-components';
 
 const CenteredContainer = styled.div`
@@ -46,7 +46,7 @@ const About = () => {
     <>
       <section>
         <div className='first-pic'>
-          <img src={second} alt='about' />
+          <img src={first} alt='about' />
         </div>
         <div>
           <CenteredContainer>

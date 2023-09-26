@@ -1,5 +1,5 @@
 import React from 'react';
-import first from '../../assets/first.jpg';
+import second from '../../assets/second.jpg';
 import './Header.css';
 import styled from 'styled-components';
 import { useState } from 'react';
@@ -80,7 +80,7 @@ const Header = () => {
           <StyledH1>Beyond Politics </StyledH1>
         </H1Container>
         <ImageContainer>
-          <FirstPic src={first} alt='home' />
+          <FirstPic src={second} alt='home' />
         </ImageContainer>
         <CenteredContainer>
           <Register>Register</Register>
