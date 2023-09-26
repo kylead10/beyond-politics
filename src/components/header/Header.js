@@ -32,7 +32,7 @@ const H1Container = styled.div`
 const ImageContainer = styled.div`
   margin: 0;
   padding: 0;
-  background-color: red;
+  background-color: #fff;
 `;
 
 const FirstPic = styled.img`
