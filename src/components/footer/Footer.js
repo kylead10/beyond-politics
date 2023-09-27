@@ -49,7 +49,7 @@ const Footer = () => {
               Twitters
             </SocialLink>
             <SocialLink href='https://www.instagram.com/'>
-              <SocialIcon src='/instagram-logo.png' alt='Instagram Logo' />
+              <FaInstagram size={30} />
               Instagram
             </SocialLink>
             <SocialLink href='https://www.linkedin.com/'>
