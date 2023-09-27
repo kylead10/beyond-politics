@@ -52,12 +52,10 @@ const Footer = () => {
             <SocialLink href='https://www.instagram.com/'>
               <SocialIcon src='/instagram-logo.png' alt='Instagram Logo' />
               Instagram
-              <span>2023</span>
             </SocialLink>
             <SocialLink href='https://www.linkedin.com/'>
               <SocialIcon src='/linkedin-logo.png' alt='LinkedIn Logo' />
               LinkedIn
-              <span>2023</span>
             </SocialLink>
           </SocialMediaLinks>
         </FooterContainer>
