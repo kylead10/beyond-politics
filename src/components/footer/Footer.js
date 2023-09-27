@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'; // Import icons from 'react-icons/fa' for Font Awesome icons
 import styled from 'styled-components';
 
 const FooterContainer = styled.div`
@@ -40,7 +41,7 @@ const Footer = () => {
         <FooterContainer>
           <SocialMediaLinks>
             <SocialLink href='https://www.facebook.com/'>
-              <SocialIcon src='/facebook-logo.png' alt='Facebook Logo' />
+              <FaFacebook size={40} />
               Facebook
             </SocialLink>
             <SocialLink href='https://twitter.com/'>
