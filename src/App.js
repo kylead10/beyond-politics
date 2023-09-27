@@ -6,12 +6,14 @@ import Pop from './components/registerModal/Pop';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <About />
-      <Pop />
+      <div>
+        <Pop />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -10,7 +10,7 @@ const Container = styled.div`
   height: 100vh;
 `;
 const Button = styled.button`
-min-width: 100px
+min-width: 100px;
 padding: 16px 32px
 border-radius: 4px;
 border: none;
@@ -24,6 +24,7 @@ function Pop() {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
+    console.log('Button Clicked');
     setShowModal((prev) => !prev);
   };
   return (
