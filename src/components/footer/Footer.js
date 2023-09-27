@@ -41,11 +41,11 @@ const Footer = () => {
         <FooterContainer>
           <SocialMediaLinks>
             <SocialLink href='https://www.facebook.com/'>
-              <FaFacebook size={40} />
+              <FaFacebook size={30} />
               Facebook
             </SocialLink>
             <SocialLink href='https://twitter.com/'>
-              <SocialIcon src='/twitter-logo.png' alt='Twitter Logo' />
+              <FaTwitter size={30} />
               Twitters
             </SocialLink>
             <SocialLink href='https://www.instagram.com/'>
