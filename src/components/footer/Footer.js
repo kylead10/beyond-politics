@@ -42,12 +42,10 @@ const Footer = () => {
             <SocialLink href='https://www.facebook.com/'>
               <SocialIcon src='/facebook-logo.png' alt='Facebook Logo' />
               Facebook
-              <span>2023</span>
             </SocialLink>
             <SocialLink href='https://twitter.com/'>
               <SocialIcon src='/twitter-logo.png' alt='Twitter Logo' />
-              Twitter
-              <span>2023</span>
+              Twitters
             </SocialLink>
             <SocialLink href='https://www.instagram.com/'>
               <SocialIcon src='/instagram-logo.png' alt='Instagram Logo' />
