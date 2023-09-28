@@ -71,8 +71,8 @@ const Register = styled.button`
 `;
 
 const Header = () => {
-  // const [isRegistered, setIsRegistered] = useState(false);
-  // const handleRegistration = () => {};
+  const [isRegistered, setIsRegistered] = useState(false);
+  const handleRegistration = () => {};
   return (
     <>
       <section>
