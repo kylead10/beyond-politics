@@ -31,12 +31,6 @@ const SocialLink = styled.a`
   }
 `;
 
-// const SocialIcon = styled.img`
-//   width: 40px;
-//   height: 40px;
-//   margin-bottom: 10px;
-// `;
-
 const Footer = () => {
   return (
     <>
