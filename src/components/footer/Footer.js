@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'; // Import icons from 'react-icons/fa' for Font Awesome icons
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { RiTwitterXLine } from 'react-icons/ri';
 import styled from 'styled-components';
-
 const FooterContainer = styled.div`
   margin: 0;
   padding: 20px 0;
@@ -42,8 +42,7 @@ const Footer = () => {
               Facebook
             </SocialLink>
             <SocialLink href='https://twitter.com/'>
-              <FaTwitter size={30} />
-              Twitters
+              <RiTwitterXLine size={30} />X
             </SocialLink>
             <SocialLink href='https://www.instagram.com/'>
               <FaInstagram size={30} />
