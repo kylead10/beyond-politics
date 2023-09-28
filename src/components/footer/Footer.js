@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const FooterContainer = styled.div`
   margin: 0;
-  padding: 0;
+  padding: 20px 0;
   font-size: 50px;
   text-align: center;
   background-color: grey;
@@ -18,6 +18,8 @@ const SocialMediaLinks = styled.div`
 
 const SocialLink = styled.a`
   font-size: 1.5rem;
+  display: flex;
+  font-size: 1.7rem;
   margin: 0 10px;
   color: #fff;
   text-decoration: none;
