@@ -19,8 +19,9 @@ const SocialMediaLinks = styled.div`
 const SocialLink = styled.a`
   font-size: 1.5rem;
   display: flex;
+  flex-direction: grid;
   font-size: 1.7rem;
-  margin: 0 10px;
+  margin: 0 20px;
   color: #fff;
   text-decoration: none;
   transition: color 0.3s ease;
