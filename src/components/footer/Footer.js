@@ -42,7 +42,8 @@ const Footer = () => {
               Facebook
             </SocialLink>
             <SocialLink href='https://twitter.com/'>
-              <RiTwitterXLine size={30} />X
+              <RiTwitterXLine size={30} />
+              Twitter
             </SocialLink>
             <SocialLink href='https://www.instagram.com/'>
               <FaInstagram size={30} />
