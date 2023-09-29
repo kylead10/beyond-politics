@@ -62,7 +62,7 @@ const About = () => {
             accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
             ut nemo corrupti!
           </Info>
-          <Head>About Speakers</Head>
+          <Head>Our Speakers</Head>
 
           <Info>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
