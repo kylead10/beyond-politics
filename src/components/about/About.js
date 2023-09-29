@@ -62,6 +62,14 @@ const About = () => {
             accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
             ut nemo corrupti!
           </Info>
+          <Head>About Speakers</Head>
+
+          <Info>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            voluptas exercitationem eveniet quis impedit sunt cupiditate atque
+            accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
+            ut nemo corrupti!
+          </Info>
           <CenteredContainer>
             <Register>Register</Register>
           </CenteredContainer>
