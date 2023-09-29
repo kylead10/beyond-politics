@@ -54,7 +54,7 @@ const About = () => {
           <CenteredContainer>
             <Register>Register</Register>
           </CenteredContainer>
-          <Head>About Speaker</Head>
+          <Head>About the Program</Head>
 
           <Info>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
