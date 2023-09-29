@@ -33,12 +33,14 @@ const Head = styled.h1`
   text-align: left;
   color: grey;
   display: block;
+  margin: 0.8rem;
 `;
 
 const Info = styled.h3`
   font-size: 1em;
   text-align: left;
   color: grey;
+  margin: 1rem;
 `;
 
 const About = () => {
