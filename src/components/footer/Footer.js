@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { RiTwitterXLine } from 'react-icons/ri';
 import styled from 'styled-components';
 const FooterContainer = styled.div`
