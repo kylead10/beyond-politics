@@ -3,8 +3,7 @@ This is a practice react project single page website.
 
 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
 
 ### `npm test`
 
