@@ -69,7 +69,7 @@ const RegistrationForm = () => {
   // Render the form or a confirmation message based on registration status
   return (
     <RegistrationFormContainer isRegistered={isRegistered}>
-      <h2>Registration Form</h2>
+      <h2>Register Here</h2>
       <Form onSubmit={handleSubmit}>
         <FormLabel htmlFor='name'>Name:</FormLabel>
         <FormInput
@@ -92,7 +92,7 @@ const RegistrationForm = () => {
           required
           // Add value and onChange handlers as needed
         />
-        <FormButton type='submit'>Register</FormButton>
+        <FormButton type='submit'>Submit</FormButton>
       </Form>
     </RegistrationFormContainer>
   );
