@@ -3,7 +3,7 @@ import second from '../../assets/second.jpg';
 import './Header.css';
 import styled from 'styled-components';
 import { useState } from 'react';
-import RegistrationForm from './components/registerModal/Register';
+import RegistrationForm from '../RegistrationForm';
 
 const StyledH1 = styled.h1`
   margin: 0;
