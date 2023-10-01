@@ -1,4 +1,48 @@
 import React, { useState } from 'react';
+import styled from 'styled-components';
+
+const RegistrationFormContainer = styled.div`
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #333;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: ${({ isRegistered }) => (isRegistered ? 'none' : 'block')};
+`;
+
+const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const FormLabel = styled.label`
+  font-size: 16px;
+  margin-bottom: 8px;
+`;
+
+const FormInput = styled.input`
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+`;
+
+const FormButton = styled.button`
+  font-weight: bold;
+  background-color: grey;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+`;
 
 const RegistrationForm = () => {
   // State variables to manage form inputs
@@ -24,51 +68,33 @@ const RegistrationForm = () => {
 
   // Render the form or a confirmation message based on registration status
   return (
-    <div>
-      {isRegistered ? (
-        <div>
-          <h2>Registration Successful!</h2>
-          <p>Name: {name}</p>
-          <p>Email: {email}</p>
-          <p>Mobile Number: {mobile}</p>
-        </div>
-      ) : (
-        <form onSubmit={handleSubmit}>
-          <h2>Registration Form</h2>
-          <div>
-            <label htmlFor='name'>Name:</label>
-            <input
-              type='text'
-              id='name'
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor='email'>Email:</label>
-            <input
-              type='email'
-              id='email'
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor='mobile'>Mobile Number:</label>
-            <input
-              type='tel'
-              id='mobile'
-              value={mobile}
-              onChange={(e) => setMobile(e.target.value)}
-              required
-            />
-          </div>
-          <button type='submit'>Register</button>
-        </form>
-      )}
-    </div>
+    <RegistrationFormContainer isRegistered={isRegistered}>
+      <h2>Registration Form</h2>
+      <Form onSubmit={handleSubmit}>
+        <FormLabel htmlFor='name'>Name:</FormLabel>
+        <FormInput
+          type='text'
+          id='name'
+          required
+          // Add value and onChange handlers as needed
+        />
+        <FormLabel htmlFor='email'>Email:</FormLabel>
+        <FormInput
+          type='email'
+          id='email'
+          required
+          // Add value and onChange handlers as needed
+        />
+        <FormLabel htmlFor='mobile'>Mobile Number:</FormLabel>
+        <FormInput
+          type='tel'
+          id='mobile'
+          required
+          // Add value and onChange handlers as needed
+        />
+        <FormButton type='submit'>Register</FormButton>
+      </Form>
+    </RegistrationFormContainer>
   );
 };
 
