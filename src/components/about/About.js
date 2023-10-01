@@ -2,6 +2,8 @@ import React from 'react';
 import './About.css';
 import first from '../../assets/first.jpg';
 import styled from 'styled-components';
+import RegistrationForm from '../RegistrationForm';
+import { useState } from 'react';
 
 const CenteredContainer = styled.div`
   display: flex;
@@ -44,6 +46,12 @@ const Info = styled.h3`
 `;
 
 const About = () => {
+  const [isRegistered, setIsRegistered] = useState(false);
+
+  const toggleRegistration = () => {
+    setIsRegistered(!isRegistered);
+  };
+
   return (
     <>
       <section>
@@ -52,8 +60,9 @@ const About = () => {
         </div>
         <div>
           <CenteredContainer>
-            <Register>Register</Register>
+            <Register onClick={toggleRegistration}>Register</Register>
           </CenteredContainer>
+          {isRegistered && <RegistrationForm />}
           <Head>About the Program</Head>
           <Info>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
@@ -63,7 +72,7 @@ const About = () => {
           </Info>
 
           <CenteredContainer>
-            <Register>Register</Register>
+            <Register onClick={toggleRegistration}>Register</Register>
           </CenteredContainer>
 
           <Head>Our Speakers</Head>
@@ -74,6 +83,7 @@ const About = () => {
             ut nemo corrupti!
           </Info>
         </div>
+        {isRegistered && <RegistrationForm />}
       </section>
     </>
   );
