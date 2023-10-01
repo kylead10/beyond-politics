@@ -3,6 +3,7 @@ import second from '../../assets/second.jpg';
 import './Header.css';
 import styled from 'styled-components';
 import { useState } from 'react';
+import RegistrationForm from './components/registerModal/Register';
 
 const StyledH1 = styled.h1`
   margin: 0;
@@ -72,7 +73,11 @@ const Register = styled.button`
 
 const Header = () => {
   const [isRegistered, setIsRegistered] = useState(false);
-  const handleRegistration = () => {};
+
+  const toggleRegistration = () => {
+    setIsRegistered(!isRegistered);
+  };
+
   return (
     <>
       <section>
@@ -83,8 +88,9 @@ const Header = () => {
           <FirstPic src={second} alt='home' />
         </ImageContainer>
         <CenteredContainer>
-          <Register>Register</Register>
+          <Register onClick={toggleRegistration}>Register</Register>
         </CenteredContainer>
+        {isRegistered && <RegistrationForm />}
       </section>
     </>
   );
