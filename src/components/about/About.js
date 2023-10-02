@@ -67,7 +67,7 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
             voluptas exercitationem eveniet quis impedit sunt cupiditate atque
             accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
-            ut nemo corrupti thdhh dgyyfdv hfte56 ygd!
+            ut nemo corrupts hfte56 ygd!
           </Info>
 
           <CenteredContainer>
@@ -79,7 +79,7 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
             voluptas exercitationem eveniet quis impedit sunt cupiditate atque
             accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
-            ut nemo corrgfgf yh kkgyth tdf upti!
+            ut nemo corrg!
           </Info>
         </div>
         {isRegistered && <RegistrationForm />}
