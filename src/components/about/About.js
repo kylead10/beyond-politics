@@ -1,5 +1,4 @@
 import React from 'react';
-import './About.css';
 import first from '../../assets/first.jpg';
 import styled from 'styled-components';
 import RegistrationForm from '../RegistrationForm';
@@ -68,7 +67,7 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
             voluptas exercitationem eveniet quis impedit sunt cupiditate atque
             accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
-            ut nemo corrupti!
+            ut nemo corrupti thdhh dgyyfdv hfte56 ygd!
           </Info>
 
           <CenteredContainer>
