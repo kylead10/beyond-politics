@@ -79,7 +79,7 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
             voluptas exercitationem eveniet quis impedit sunt cupiditate atque
             accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
-            ut nemo corrupti!
+            ut nemo corrgfgf yh kkgyth tdf upti!
           </Info>
         </div>
         {isRegistered && <RegistrationForm />}
