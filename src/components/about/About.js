@@ -80,8 +80,8 @@ const About = () => {
             omnis praesentium sed provident magnam, temporibus, sapiente sunt,
             officia expedita consequatur consectetur odit aspernatur? Similique
             minima, repellat laboriosam perferendis, modi ratione iure laborum
-            veniam, id corrupti explicabo inventore mollitia impedit veritatis
-            debitis eligendi tenetur necessitatibus molestias!
+            veniam, id corrupti explicabo invento mpedit veritatis debitis
+            eligendi tenetur necessitatibus molestias!
           </Info>
         </div>
         {isRegistered && <RegistrationForm />}
