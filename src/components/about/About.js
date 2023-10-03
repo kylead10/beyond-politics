@@ -77,9 +77,8 @@ const About = () => {
           <Head>Our Speakers</Head>
           <Info>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
-            dolorum possimus eum nulla fuga totam veritatis molestiae maxime
-            sapiente esse Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Odit ipsum distinctio nesciunt?
+            dolorum possimus eum Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ea, modi.
           </Info>
         </div>
         {isRegistered && <RegistrationForm />}
