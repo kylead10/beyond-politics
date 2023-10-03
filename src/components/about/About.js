@@ -76,10 +76,11 @@ const About = () => {
 
           <Head>Our Speakers</Head>
           <Info>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            voluptas exercitationem eveniet quis impedit sunt cupiditate atque
-            accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
-            ut nemo corrg!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+            dolorum possimus eum nulla fuga totam veritatis molestiae maxime
+            sapiente esse exercitationem quia aliquam omnis aut amet quasi,
+            reprehenderit inventore et quisquam quo error! Molestias nisi ipsa
+            autem recusandae architecto perspiciatis.
           </Info>
         </div>
         {isRegistered && <RegistrationForm />}
