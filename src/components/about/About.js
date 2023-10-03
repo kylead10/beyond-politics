@@ -75,7 +75,14 @@ const About = () => {
           </CenteredContainer>
 
           <Head>Our Speakers</Head>
-          <Info></Info>
+          <Info>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            omnis praesentium sed provident magnam, temporibus, sapiente sunt,
+            officia expedita consequatur consectetur odit aspernatur? Similique
+            minima, repellat laboriosam perferendis, modi ratione iure laborum
+            veniam, id corrupti explicabo inventore mollitia impedit veritatis
+            debitis eligendi tenetur necessitatibus molestias!
+          </Info>
         </div>
         {isRegistered && <RegistrationForm />}
       </section>
