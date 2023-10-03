@@ -78,7 +78,8 @@ const About = () => {
           <Info>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
             dolorum possimus eum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ea, modi.
+            adipisicing elit. Ea, modi Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Necessitatibus laboriosam adipisci ipsum?
           </Info>
         </div>
         {isRegistered && <RegistrationForm />}
