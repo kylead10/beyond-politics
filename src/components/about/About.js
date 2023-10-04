@@ -64,8 +64,8 @@ const About = () => {
           {isRegistered && <RegistrationForm />}
           <Head>About the Program</Head>
           <Info>
-            Lorem ipsum dolor sit amet consetur adipisicing elit. Facere
-            voluptas exercitationem eveniet quis impedit sunt cupiditate atque
+            Lorem ipsum dolor sit consetur adipisicing elit. Face voluptas
+            exercitationem eveniet quis impedit sunt cupiditate atque
             accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
             ut nemo corrupts hfte ygd!
           </Info>
