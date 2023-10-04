@@ -1,1 +1,1 @@
-This is a single page website for Beyond Politics program.
+This is a single page website for Beyond Politics program. its utilizes styled-component for styling and react icon
