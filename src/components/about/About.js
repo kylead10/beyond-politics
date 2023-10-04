@@ -64,10 +64,10 @@ const About = () => {
           {isRegistered && <RegistrationForm />}
           <Head>About the Program</Head>
           <Info>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            Lorem ipsum dolor sit amet consetur adipisicing elit. Facere
             voluptas exercitationem eveniet quis impedit sunt cupiditate atque
             accusantium rem expedita dolore, aliquid autem vel! Ipsa minus quasi
-            ut nemo corrupts hfte56 ygd!
+            ut nemo corrupts hfte ygd!
           </Info>
 
           <CenteredContainer>
@@ -80,8 +80,8 @@ const About = () => {
             omnis praesentium sed provident magnam, temporibus, sapiente sunt,
             officia expedita consequatur consectetur odit aspernatur? Similique
             minima, repellat laboriosam perferendis, modi ratione iure laborum
-            veniam, id corrupti explicabo invento mpedit veritatis debitis
-            eligendi tenetur necessitatibus molestias!
+            veniam, id corrupti explica lop ftr yt bo invento mpedit veritatis
+            debitis eligendi tenetur necessitatibus molestias!
           </Info>
         </div>
         {isRegistered && <RegistrationForm />}
