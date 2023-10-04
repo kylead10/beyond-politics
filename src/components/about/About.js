@@ -78,10 +78,10 @@ const About = () => {
           <Info>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
             omnis praesentium sed provident magnam, temporibus, sapiente sunt,
-            officia expedita consequatur consectetur odit aspernatur? Similique
-            minima, repellat laboriosam perferendis, modi ratione iure laborum
-            veniam, id corrupti explica lop ftr yt bo invento mpedit veritatis
-            debitis eligendi tenetur necessitatibus molestias!
+            officia expe equatur consectetur odit aspernatur? Similique minima,
+            repellat laboriosam perferendis, modi ratione iure laborum veniam,
+            id corrupti explica lop ftr yt bo invento mpedit veritatis debitis
+            eligendi tenetur necessitatibus molestias!
           </Info>
         </div>
         {isRegistered && <RegistrationForm />}
