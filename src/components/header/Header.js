@@ -82,7 +82,7 @@ const Header = () => {
     <>
       <section>
         <H1Container>
-          <StyledH1>Beyond Politics </StyledH1>
+          <StyledH1>BEYOND POLITICS</StyledH1>
         </H1Container>
         <ImageContainer>
           <FirstPic src={second} alt='home' />
