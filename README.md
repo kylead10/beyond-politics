@@ -1,1 +1,1 @@
-This is a single page website for Beyond Politics program built using. its utilizes styled-component for styling and react icons. A registration form is available which collects relevant information from future attendee.
+This is a single page website for Beyond Politics program built using react. its utilizes styled-component for styling and react icons. A registration form is available which collects relevant information from future attendee.
